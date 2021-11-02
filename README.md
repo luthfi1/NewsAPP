@@ -11,7 +11,7 @@
 * Menyusun tampilan layout news_headline untuk menampilkan berita utama
 <img width="342" alt="Screen Shot 2021-11-02 at 08 27 55" src="https://user-images.githubusercontent.com/68719137/139772132-dd72e138-6c72-4e18-b50a-39dc6750391e.png">
 
-![Uploading Screen Shot 2021-11-02 at 08.27.55.png…]()
+
 
 
 
