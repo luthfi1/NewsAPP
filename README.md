@@ -9,7 +9,8 @@
 ##  Selasa, 26 Oktober 2021 saya telah belajar:
 * Menyusun tampilan utama dengan TabLayoutMediator
 * Menyusun tampilan layout news_headline untuk menampilkan berita utama
-<img width="241" alt="Screen Shot 2021-11-02 at 08 16 38" src="https://user-images.githubusercontent.com/68719137/139771400-8f6361ac-da29-40a7-b0fc-8d190c7e95d5.png">
+<img width="236" alt="Screen Shot 2021-11-02 at 08 16 28" src="https://user-images.githubusercontent.com/68719137/139771566-3f89fa98-7096-4a05-8db3-927e20cb2c37.png">
+
 
 
 ##  Senin, 1 November 2021  saya telah belajar:
