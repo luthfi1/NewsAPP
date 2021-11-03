@@ -1,4 +1,4 @@
-package com.singaperbangsaluthfifarizqi.newsapp
+package com.singaperbangsaluthfifarizqi.newsapp.adapter
 
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentActivity
