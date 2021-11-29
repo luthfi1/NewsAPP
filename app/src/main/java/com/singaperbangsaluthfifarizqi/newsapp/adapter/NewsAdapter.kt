@@ -1,11 +1,13 @@
 package com.singaperbangsaluthfifarizqi.newsapp.adapter
 
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.singaperbangsaluthfifarizqi.newsapp.DetailActivity
 import com.singaperbangsaluthfifarizqi.newsapp.R
 import com.singaperbangsaluthfifarizqi.newsapp.data.News
 
@@ -31,6 +33,13 @@ class NewsAdapter(private val listNews: ArrayList<News>) :
             tvDate.text = listNews[position].date
             tvTime.text = listNews[position].time
             imgNews.setImageResource(listNews[position].image)
+
+
+            itemView.setOnClickListener {
+                val intent = Intent(itemView.context, DetailActivity::class.java)
+                intent.putExtra(DetailActivity.EXTRA_NEWS_DATA, listNews[position])
+                itemView.context.startActivity(intent)
+            }
         }
     }
 

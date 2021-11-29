@@ -1,5 +1,10 @@
 package com.singaperbangsaluthfifarizqi.newsapp.data
 
+
+import android.os.Parcelable
+import kotlinx.android.parcel.Parcelize
+
+@Parcelize
 data class News(
     val title: String,
     val content: String,
@@ -8,4 +13,4 @@ data class News(
     val time: String,
     val category: String,
     val image: Int
-)
+) : Parcelable

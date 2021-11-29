@@ -10,6 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.NewsAPP">
         <activity
+            android:name=".DetailActivity"
+            android:exported="true"
+            android:theme="@style/Theme.NewsAPP.NoActionBar" />
+        <activity
             android:name=".SplashScreenActivity"
             android:exported="true"
             android:theme="@style/NoActionBar">
@@ -19,12 +23,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".MainActivity"
             android:exported="true"
             android:theme="@style/Theme.NewsAPP.NoActionBar" />
-
     </application>
 
 </manifest>
